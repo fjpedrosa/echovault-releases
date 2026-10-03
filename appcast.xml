@@ -6,6 +6,15 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.2.1</title>
+      <pubDate>Sat, 03 Oct 2026 19:19:45 +0200</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Versión de prueba del sistema de actualizaciones. Sin cambios funcionales.</p>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.2.1/EchoVault.zip" type="application/octet-stream" length="56723130" sparkle:edSignature="l1gvClMTATNJyXb4UoywcZS8q/njoGLc3xAfs9gH09XPa2nFjK/E8kuQjWpZLAxZd7UPysL2PDtFE5sI5GoaBg=="/>
+    </item>
+    <item>
       <title>EchoVault 0.2.0</title>
       <pubDate>Sat, 03 Oct 2026 19:18:10 +0200</pubDate>
       <sparkle:version>2</sparkle:version>
