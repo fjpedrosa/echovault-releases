@@ -6,6 +6,15 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.2.3</title>
+      <pubDate>Sat, 03 Oct 2026 21:43:07 +0200</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Los chats y carpetas de Drive se llaman como en WhatsApp: el nombre de tu agenda o, si no lo tienes guardado, el número.</li><li>Limpieza automática de carpetas duplicadas en Drive (van a la papelera, recuperables 30 días).</li><li>Menú renovado con métricas: hoy, 30 días, gráfico diario y chats más activos.</li><li>Las actualizaciones ya no piden la contraseña del Mac (tras un último aviso al instalar esta versión).</li></ul>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.2.3/EchoVault.zip" type="application/octet-stream" length="56849144" sparkle:edSignature="SHegIVvG1HComX9B4XdvhYruv5eWRngkToJVM6ab0M482QMVb1JUOK3kU/HQdjXg0pPGrUu1DnizYH/L6XxZDw=="/>
+    </item>
+    <item>
       <title>EchoVault 0.2.2</title>
       <pubDate>Sat, 03 Oct 2026 21:03:15 +0200</pubDate>
       <sparkle:version>4</sparkle:version>
