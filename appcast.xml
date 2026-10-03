@@ -6,6 +6,15 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.2.2</title>
+      <pubDate>Sat, 03 Oct 2026 21:03:15 +0200</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Los chats en Drive ya usan el nombre de tu agenda de WhatsApp (o el nombre de perfil, o el número formateado) en lugar del identificador interno. Corrige el formato de enlaces y paréntesis en las transcripciones.</p>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.2.2/EchoVault.zip" type="application/octet-stream" length="56723350" sparkle:edSignature="Gh1pDJ+nla6nrYLjrkWSUhMLlr7sYMzbh4Tv0cJPZGDeIzT9gswanYJDdEbcxT+hZEtR+6Qv1V3z57lC5T0qBQ=="/>
+    </item>
+    <item>
       <title>EchoVault 0.2.1</title>
       <pubDate>Sat, 03 Oct 2026 19:19:45 +0200</pubDate>
       <sparkle:version>3</sparkle:version>
