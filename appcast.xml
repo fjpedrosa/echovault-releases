@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>EchoVault</title>
+    <link>https://echovault.fjpedrosa.com/appcast.xml</link>
+    <description>Actualizaciones de EchoVault.</description>
+    <language>es</language>
+    <item>
+      <title>EchoVault 0.2.0</title>
+      <pubDate>Sat, 03 Oct 2026 19:18:10 +0200</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Primera versión para compartir: archivo de WhatsApp con borrados y ediciones, sincronización con Google Drive por chat y actualizaciones automáticas.</p>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.2.0/EchoVault.zip" type="application/octet-stream" length="56723128" sparkle:edSignature="7BZapMwRXf8iDKe8/G56lNDqvx2IbOuoxJIF1qAJhsmOv0T0Dwpmz86625St3NYxNSOVBZAQu43cLaoZN4I2Bg=="/>
+    </item>
+  </channel>
+</rss>
