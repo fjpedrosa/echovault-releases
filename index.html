@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EchoVault — Archivo de WhatsApp para Mac</title>
+  <meta name="description" content="EchoVault es una app de barra de menús para macOS que archiva tu propio WhatsApp en tu Mac —incluso lo que otros borran y editan— y lo copia a la carpeta de Google Drive que tú elijas.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1c1e" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="EchoVault, inicio">
+        <svg class="brand__mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M4.2 6.2A1.5 1.5 0 0 1 5.6 5h12.8a1.5 1.5 0 0 1 1.4 1.2L20 8.5a1 1 0 0 1-1 1.2H5A1 1 0 0 1 4 8.5z"/>
+          <path d="M5.3 9.7v8.3a1.6 1.6 0 0 0 1.6 1.6h10.2a1.6 1.6 0 0 0 1.6-1.6V9.7"/>
+          <path d="M9.6 13h4.8"/>
+        </svg>
+        <span class="brand__name">EchoVault</span>
+      </a>
+      <a class="header-link" href="/privacidad/">Privacidad</a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <p class="eyebrow">App de barra de menús para macOS</p>
+        <h1 id="hero-title">Tu WhatsApp, archivado en tu propio Mac.</h1>
+        <p class="lede">EchoVault vincula tu cuenta de WhatsApp como un dispositivo más y guarda en tu ordenador cada mensaje y adjunto. Conserva lo que otros borran y editan, y cada pocos minutos lo copia a la carpeta de Google&nbsp;Drive que tú elijas: una carpeta por chat, con los archivos y un transcript del mes.</p>
+
+        <div class="cta">
+          <a class="btn" href="https://github.com/fjpedrosa/echovault-releases/releases/latest/download/EchoVault.zip">Descargar para Mac</a>
+          <p class="cta__meta">
+            Versión <span id="version">0.2.0</span>
+            <span class="dot" aria-hidden="true">·</span> Gratis
+          </p>
+        </div>
+
+        <ul class="reqs" aria-label="Requisitos">
+          <li>macOS 15 o posterior</li>
+          <li>Mac con Apple&nbsp;Silicon</li>
+          <li>FileVault activado</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="showcase" aria-labelledby="showcase-title">
+      <div class="wrap">
+        <h2 id="showcase-title" class="sr-only">Cómo se ve tu archivo</h2>
+        <figure class="window">
+          <div class="window__bar">
+            <span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="window__title">Mi archivo · Google Drive</span>
+          </div>
+          <div class="window__body">
+            <div class="panel">
+              <p class="panel__label">Una carpeta por chat</p>
+              <pre class="tree"><span class="tree__dir">Mi archivo/</span>
+└─ <span class="tree__dir">María López (a1b2c3)/</span>
+   ├─ <span class="tree__file">2026-10.md</span>
+   └─ <span class="tree__file">2026-10-02_1403.jpg</span></pre>
+            </div>
+            <div class="panel">
+              <p class="panel__label">Transcript del mes</p>
+              <div class="chat">
+                <p class="msg"><span class="msg__time">14:03</span><span class="msg__who">María</span>¿Te paso las fotos del finde?</p>
+                <p class="msg"><span class="msg__time">14:04</span><span class="msg__who">Tú</span>Sí, porfa</p>
+                <p class="msg msg--deleted"><span class="msg__time">14:06</span><span class="msg__who">María</span><span class="glyph" aria-hidden="true">🗑️</span><s>Uf, qué corte lo de ayer</s> <span class="msg__tag">eliminado para todos</span></p>
+                <p class="msg msg--edited"><span class="msg__time">14:12</span><span class="msg__who">Tú</span><span class="glyph" aria-hidden="true">✏️</span>Nos vemos a las nueve <span class="msg__tag">editado</span></p>
+              </div>
+            </div>
+          </div>
+          <figcaption class="window__cap">EchoVault conserva el mensaje que María borró para todos y señala el que tú editaste. Nadie recibe aviso.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="features" aria-labelledby="features-title">
+      <div class="wrap">
+        <h2 id="features-title">Qué hace</h2>
+        <ul class="feature-list">
+          <li>
+            <h3>Archiva todo lo que llega</h3>
+            <p>Desde que lo vinculas, guarda en local los mensajes enviados y recibidos y sus adjuntos. No recupera el historial anterior: para eso, importa una exportación de WhatsApp.</p>
+          </li>
+          <li>
+            <h3>Guarda lo que se borra y se edita</h3>
+            <p>Registra los mensajes eliminados para todos y los editados, con su marca y sin avisar a nadie. Lo que desaparece de la conversación sigue en tu archivo.</p>
+          </li>
+          <li>
+            <h3>En tu Google Drive, legible</h3>
+            <p>Cada pocos minutos sincroniza con la carpeta que elijas usando el permiso <code>drive.file</code>: una carpeta por chat, con los adjuntos y un transcript mensual en texto.</p>
+          </li>
+          <li>
+            <h3>Nada pasa por mis manos</h3>
+            <p>Todo se ejecuta en tu Mac. No hay servidores, ni analítica, ni telemetría. Los secretos viven en el Llavero de macOS; los datos, en tu ordenador y en tu propia cuenta de Drive.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="install" aria-labelledby="install-title">
+      <div class="wrap">
+        <h2 id="install-title">Instalación</h2>
+        <ol class="steps">
+          <li>
+            <h3>Descomprime y arrastra</h3>
+            <p>Abre el <code>.zip</code> y arrastra <strong>EchoVault</strong> a tu carpeta de Aplicaciones.</p>
+          </li>
+          <li>
+            <h3>Ábrela por primera vez</h3>
+            <p>La primera vez, macOS la bloqueará porque no está notarizada por Apple. Ábrela, cierra el aviso y ve a <strong>Ajustes del Sistema › Privacidad y seguridad</strong>, donde aparecerá un botón <strong>«Abrir igualmente»</strong>.</p>
+            <details class="advanced">
+              <summary>Alternativa para usuarios avanzados</summary>
+              <p>Quita la marca de cuarentena desde la Terminal:</p>
+              <pre class="code"><code>xattr -dr com.apple.quarantine /Applications/EchoVault.app</code></pre>
+            </details>
+          </li>
+          <li>
+            <h3>Vincula WhatsApp</h3>
+            <p>Escanea el código QR desde WhatsApp › Ajustes › Dispositivos vinculados. Enlaza únicamente tu propio número.</p>
+          </li>
+          <li>
+            <h3>Conecta Google Drive</h3>
+            <p>Autoriza el acceso y elige la carpeta donde quieres el archivo, o deja que EchoVault cree una nueva.</p>
+          </li>
+        </ol>
+        <p class="note">
+          <span class="note__title">Actualizaciones</span>
+          Llegan solas dentro de la app: cuando haya una nueva versión, pulsa <strong>«Actualizar»</strong> desde el menú de EchoVault.
+        </p>
+      </div>
+    </section>
+
+    <aside class="disclosure" aria-labelledby="disclosure-title">
+      <div class="wrap">
+        <h2 id="disclosure-title">Antes de empezar, con honestidad</h2>
+        <ul>
+          <li>EchoVault usa <strong>Baileys</strong>, un cliente no oficial de WhatsApp Web. <strong>No está afiliado ni respaldado por WhatsApp ni por Meta.</strong> WhatsApp puede cambiar el protocolo o restringir cuentas.</li>
+          <li>Úsalo <strong>solo con tu propia cuenta</strong>.</li>
+          <li>Tu archivo <strong>contiene mensajes de otras personas</strong>. Es un archivo personal: evalúa tus obligaciones de protección de datos antes de compartirlo.</li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer__brand">EchoVault</p>
+      <nav class="footer__links" aria-label="Pie de página">
+        <a href="/privacidad/">Política de privacidad</a>
+        <a href="mailto:bokeauss@gmail.com">bokeauss@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

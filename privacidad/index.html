@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad — EchoVault</title>
+  <meta name="description" content="Política de privacidad de EchoVault: qué datos trata la aplicación y cómo. Todo se ejecuta en tu Mac; el desarrollador no opera servidores ni recopila analítica.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1c1c1e" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="EchoVault, inicio">
+        <svg class="brand__mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M4.2 6.2A1.5 1.5 0 0 1 5.6 5h12.8a1.5 1.5 0 0 1 1.4 1.2L20 8.5a1 1 0 0 1-1 1.2H5A1 1 0 0 1 4 8.5z"/>
+          <path d="M5.3 9.7v8.3a1.6 1.6 0 0 0 1.6 1.6h10.2a1.6 1.6 0 0 0 1.6-1.6V9.7"/>
+          <path d="M9.6 13h4.8"/>
+        </svg>
+        <span class="brand__name">EchoVault</span>
+      </a>
+      <a class="header-link" href="/">Inicio</a>
+    </div>
+  </header>
+
+  <main id="contenido" class="legal">
+    <div class="wrap">
+      <p class="back"><a href="/">← Volver a EchoVault</a></p>
+      <article class="prose">
+        <h1>Política de privacidad de EchoVault</h1>
+
+<p>Última actualización: 3 de octubre de 2026</p>
+
+<p>EchoVault es una aplicación gratuita para la barra de menús de macOS, desarrollada de forma individual por Francisco Javier Pedrosa (España, Unión Europea) y compartida con un grupo reducido de personas desde <a href="https://echovault.fjpedrosa.com">https://echovault.fjpedrosa.com</a>. Esta política explica qué datos trata la aplicación y cómo. Al estar el desarrollador establecido en la UE, resulta de aplicación el Reglamento General de Protección de Datos (RGPD).</p>
+
+<h2>Principio básico: todo se ejecuta en tu Mac</h2>
+
+<p>EchoVault funciona íntegramente en tu ordenador. El desarrollador no opera ningún servidor que reciba tus datos, no recopila analítica ni telemetría, y no tiene acceso a tus mensajes, adjuntos, cuentas ni credenciales. Los únicos datos que salen de tu Mac son los que tú mismo envías a tu propia cuenta de Google Drive y, opcionalmente, a tu servidor de correo. En consecuencia, respecto de tu archivo personal el responsable del tratamiento eres tú, no el desarrollador.</p>
+
+<h2>Vinculación con WhatsApp</h2>
+
+<p>La aplicación enlaza tu propia cuenta de WhatsApp como dispositivo vinculado mediante la biblioteca de código abierto Baileys, un cliente no oficial de WhatsApp Web. EchoVault no está afiliado ni respaldado por WhatsApp ni por Meta. Debes vincular únicamente tu propio número. Desde el momento del enlace, la aplicación archiva en local los mensajes recibidos y enviados, los adjuntos, los mensajes editados y los eliminados para todos (marcados como tales, sin que se avise al emisor). No recupera el historial anterior al enlace ni los mensajes de una sola visualización.</p>
+
+<h2>Datos almacenados en local</h2>
+
+<p>Los mensajes, adjuntos, la sesión de WhatsApp y los registros de ediciones y eliminaciones se guardan en <code>~/Library/Application Support/EchoVault</code> (base de datos SQLite y ficheros, con permisos 0700/0600). Estos datos <strong>no están cifrados por la aplicación</strong>: su protección depende de FileVault, que EchoVault exige para capturar, y de los permisos del sistema. Cualquier persona con acceso a tu sesión de macOS tendría acceso al archivo. Los secretos (identificador y secreto de cliente OAuth de Google, token de actualización y contraseña SMTP) se almacenan en el Llavero de macOS y solo se mantienen en memoria mientras se usan.</p>
+
+<h2>Sincronización con tu Google Drive</h2>
+
+<p>De forma periódica la aplicación sube copias legibles (transcripciones mensuales y adjuntos) a una carpeta de <strong>tu propia</strong> cuenta de Google Drive que tú eliges o creas. El acceso se autoriza mediante Google OAuth con el ámbito restringido <code>drive.file</code>, que limita la aplicación exclusivamente a los archivos y carpetas que ella misma crea o que tú seleccionas en el selector de Google; EchoVault no puede ver el resto de tu Drive.</p>
+
+<p>Los datos de usuario de Google se utilizan únicamente para ofrecer esta función de sincronización. No se transfieren al desarrollador ni a terceros, no se emplean con fines publicitarios, no se venden y no se utilizan para entrenar modelos de inteligencia artificial. El uso y la transferencia de la información recibida a través de las API de Google se ajustan a la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de las API de Google</a>, incluidos sus requisitos de uso limitado (Limited Use). En su formulación estándar: <em>EchoVault's use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.</em> Ten en cuenta que Google trata los datos conforme a sus propias políticas y que cualquiera con acceso a esa carpeta de Drive podrá leer su contenido, por lo que no debes compartirla.</p>
+
+<h2>Conexiones de red</h2>
+
+<p>Las únicas conexiones de red que realiza la aplicación son:</p>
+
+<ul>
+  <li>Con los servidores de WhatsApp, para la sesión del dispositivo vinculado.</li>
+  <li>Con Google (OAuth y Drive), para la sincronización descrita arriba.</li>
+  <li>Opcionalmente, con el servidor SMTP que tú configures para el resumen diario por correo.</li>
+  <li>Opcionalmente, con una instancia local de Ollama para generar resúmenes; el acceso a endpoints remotos está bloqueado salvo que lo actives expresamente.</li>
+  <li>Con <a href="https://echovault.fjpedrosa.com">echovault.fjpedrosa.com</a> (alojado en GitHub Pages) para comprobar actualizaciones. Esta petición expone al servidor la información habitual de una solicitud web, como tu dirección IP y el agente de usuario.</li>
+</ul>
+
+<h2>Datos de terceros y uso doméstico</h2>
+
+<p>Tu archivo contiene datos personales de otras personas: quienes te escriben. El RGPD no se aplica al tratamiento efectuado por una persona física en el ejercicio de actividades exclusivamente personales o domésticas (la llamada «excepción doméstica»). Conservar tus propias conversaciones para uso privado suele encajar en ese supuesto. Sin embargo, esa excepción puede dejar de aplicarse si difundes el archivo, lo usas con fines profesionales, de vigilancia o de evaluación de terceros, o lo compartes fuera de tu ámbito privado; en tales casos podrías convertirte en responsable del tratamiento con obligaciones propias. Eres tú quien decide el uso que das al archivo y el único responsable de que sea lícito. Este texto describe el funcionamiento de la aplicación y no constituye asesoramiento jurídico.</p>
+
+<h2>Conservación de datos</h2>
+
+<p>EchoVault conserva los datos indefinidamente hasta que tú los elimines. No hay borrado automático. Los mensajes eliminados para todos se conservan de forma predeterminada (configurable en Ajustes › WhatsApp).</p>
+
+<h2>Cómo revocar el acceso y borrar tus datos</h2>
+
+<ul>
+  <li>Revoca el acceso a Google en <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a> (o desde Ajustes › Google Drive › Desconectar).</li>
+  <li>Desvincula el dispositivo en WhatsApp › Ajustes › Dispositivos vinculados (o en Ajustes › WhatsApp › Cerrar sesión).</li>
+  <li>Elimina la carpeta de datos local <code>~/Library/Application Support/EchoVault</code> y, si procede, la carpeta en tu Google Drive.</li>
+</ul>
+
+<h2>Menores</h2>
+
+<p>EchoVault no está dirigido a menores de 16 años ni debe ser utilizado por ellos.</p>
+
+<h2>Cambios en esta política</h2>
+
+<p>Esta política puede actualizarse para reflejar cambios en la aplicación o en la normativa. La versión vigente se publicará en <a href="https://echovault.fjpedrosa.com">https://echovault.fjpedrosa.com</a> con su fecha de última actualización.</p>
+
+<h2>Contacto</h2>
+
+<p>Para cualquier cuestión relacionada con la privacidad, escribe a Francisco Javier Pedrosa en <a href="mailto:bokeauss@gmail.com">bokeauss@gmail.com</a>.</p>
+
+<h2>English summary</h2>
+
+<p>EchoVault is a free macOS menu-bar app by an individual developer (Francisco Javier Pedrosa, Spain/EU; GDPR applies). It runs entirely on your Mac. It links your own WhatsApp account as a linked device via the unofficial Baileys library (not affiliated with WhatsApp/Meta) and stores messages, attachments, edits and deletions locally in <code>~/Library/Application Support/EchoVault</code>, unencrypted by the app (FileVault is required). It uploads readable copies to <strong>your own</strong> Google Drive using OAuth with the restricted <code>drive.file</code> scope. Google user data is used only to provide the sync feature and is not shared with the developer or third parties, not used for advertising, not sold, and not used to train AI models. EchoVault's use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements. The developer runs no servers and collects no analytics or telemetry; network calls go only to WhatsApp, Google, your optional SMTP server, an optional local Ollama, and an update check to echovault.fjpedrosa.com. Secrets live in the macOS Keychain. Your archive contains third parties' personal data; you are responsible for lawful, personal/household use. To revoke: remove access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, unlink the device in WhatsApp, and delete the data folder. Data is kept until you delete it. Not intended for children under 16. Contact: <a href="mailto:bokeauss@gmail.com">bokeauss@gmail.com</a>. This is a template for informational purposes. Consult with a qualified attorney for legal advice specific to your situation.</p>
+      </article>
+      <p class="back"><a href="/">← Volver a EchoVault</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer__brand">EchoVault</p>
+      <nav class="footer__links" aria-label="Pie de página">
+        <a href="/privacidad/">Política de privacidad</a>
+        <a href="mailto:bokeauss@gmail.com">bokeauss@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
