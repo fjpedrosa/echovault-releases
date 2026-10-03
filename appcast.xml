@@ -6,6 +6,15 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.2.4</title>
+      <pubDate>Sat, 03 Oct 2026 21:57:16 +0200</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Ahora también funciona en Mac con procesador Intel.</li><li>La instalación se hace desde un DMG: ábrelo y arrastra EchoVault a Aplicaciones.</li></ul>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.2.4/EchoVault.zip" type="application/octet-stream" length="97610332" sparkle:edSignature="7TGGCtPjq4NrSDl6zg2nHozcLmvBeGNlR0611MSH7Lz6uz2eeMd8CCHbI6cfdbKuy2wTbW1vISLN7XVi6x+uDQ=="/>
+    </item>
+    <item>
       <title>EchoVault 0.2.3</title>
       <pubDate>Sat, 03 Oct 2026 21:43:07 +0200</pubDate>
       <sparkle:version>5</sparkle:version>
