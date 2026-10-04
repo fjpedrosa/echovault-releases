@@ -6,6 +6,21 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.3.1</title>
+      <pubDate>Sun, 04 Oct 2026 14:40:05 +0200</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Novedades de EchoVault 0.3.1</h2>
+<ul>
+<li><strong>Transcripción en tu propio Mac, sin configurar nada</strong>: en Macs con Apple Silicon y macOS 26 o posterior, las notas de voz y los vídeos nuevos se transcriben solos, y los vídeos llevan un breve resumen de lo que se ve. Todo se procesa en el ordenador: nada sale de tu Mac.</li>
+<li>Si lo prefieres, puedes conectar Groq u OpenAI con tu propia clave en Ajustes → Transcripción.</li>
+<li>Ajustes más claros: la tarjeta «Este Mac» muestra qué puede hacer tu equipo, y los ajustes difíciles tienen una ayuda (?) al pasar el ratón.</li>
+</ul>
+<p>Política de privacidad actualizada: <a href="https://echovault.fjpedrosa.com/privacidad/">echovault.fjpedrosa.com/privacidad</a></p>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.3.1/EchoVault.zip" type="application/octet-stream" length="98293637" sparkle:edSignature="e+5I0GU0FT4dNkXrAJb9YNeUeyK7OStKyUvE5+A+gFw7y8TOdtNsCbCqt66kqc2ClwLAnPV5d8Ocg6SHG2UvBQ=="/>
+    </item>
+    <item>
       <title>EchoVault 0.3.0</title>
       <pubDate>Sun, 04 Oct 2026 12:53:47 +0200</pubDate>
       <sparkle:version>7</sparkle:version>
