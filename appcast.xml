@@ -6,6 +6,22 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.4.0</title>
+      <pubDate>Sun, 04 Oct 2026 16:44:18 +0200</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Novedades de EchoVault 0.4.0</h2>
+<ul>
+<li><strong>Un documento por día</strong>: cada chat tiene ahora una carpeta por mes con un Google Doc por cada día de conversación. Los documentos mensuales antiguos se mueven a la papelera de Drive (recuperables durante 30 días).</li>
+<li><strong>Fotos dentro del documento</strong>: las imágenes y las miniaturas de los vídeos se ven directamente en el Doc. Los audios, vídeos y archivos aparecen como chips de Drive con vista previa, sin abrir otra pestaña. Puedes desactivar las imágenes incrustadas en Ajustes → Drive.</li>
+<li><strong>Menú renovado</strong>: letra más grande, totales con iconos, gráfica de los últimos 30 días con detalle al pasar el ratón y tus chats más activos.</li>
+<li>La primera sincronización tras actualizar tarda un poco más: se regeneran los documentos por días.</li>
+</ul>
+<p>Política de privacidad actualizada: <a href="https://echovault.fjpedrosa.com/privacidad/">echovault.fjpedrosa.com/privacidad</a></p>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.4.0/EchoVault.zip" type="application/octet-stream" length="98385113" sparkle:edSignature="ZX0eXpAd4voMONjAHvIfqSi1Pqv4oUIY4MDfjr3T4VY3eWduLWCZXD6TKVyM/8SImxCn3bx4SEns6gNJmON4Bg=="/>
+    </item>
+    <item>
       <title>EchoVault 0.3.1</title>
       <pubDate>Sun, 04 Oct 2026 14:40:05 +0200</pubDate>
       <sparkle:version>8</sparkle:version>
