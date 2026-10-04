@@ -6,6 +6,22 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.3.0</title>
+      <pubDate>Sun, 04 Oct 2026 12:53:47 +0200</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h2>Novedades de EchoVault 0.3.0</h2>
+<ul>
+<li><strong>Estadísticas</strong> (⌘E en el menú): con quién hablas más, cuánto tardáis en responderos, quién inicia las conversaciones, a qué horas habláis y quién borra o edita más.</li>
+<li><strong>Ediciones bien registradas</strong>: las ediciones que WhatsApp envía cifradas ya no aparecen como «(sin contenido)»; el mensaje original se marca como editado con su nuevo texto.</li>
+<li><strong>Transcripción de audios y vídeos</strong> (opcional, desactivada por defecto): con tu propia clave de Groq, las notas de voz se transcriben y los vídeos llevan un breve resumen en los documentos de Drive. Actívala en Ajustes → Transcripción.</li>
+<li>Las notas de vídeo circulares se guardan como vídeos y se ignoran los mensajes internos de WhatsApp.</li>
+</ul>
+<p>Política de privacidad actualizada: <a href="https://echovault.fjpedrosa.com/privacidad/">echovault.fjpedrosa.com/privacidad</a></p>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.3.0/EchoVault.zip" type="application/octet-stream" length="98117675" sparkle:edSignature="10esVav3O4kNluECzhTz4FY6lkMtr8aiJEPJnbceVOYklAMREsQYaCt68DOHx5dnHn60nd3xqvocWXpjPnbTBA=="/>
+    </item>
+    <item>
       <title>EchoVault 0.2.4</title>
       <pubDate>Sat, 03 Oct 2026 21:57:16 +0200</pubDate>
       <sparkle:version>6</sparkle:version>
