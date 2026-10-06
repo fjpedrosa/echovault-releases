@@ -6,6 +6,18 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.4.3</title>
+      <pubDate>Tue, 06 Oct 2026 20:55:09 +0200</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Se acabaron las carpetas duplicadas: los mensajes que envías y los que recibes de un mismo contacto vuelven a guardarse juntos. Las carpetas repetidas se unen solas y la sobrante va a la papelera de Drive.</li>
+<li>Las carpetas de los chats individuales se llaman siempre «Nombre (teléfono)».</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.4.3/EchoVault.zip" type="application/octet-stream" length="98414670" sparkle:edSignature="pUqvcQXDqL2eVqQ7MMVOIKu6ly76SVTVKvpaAop3G3uFYAN7wv7UV0d2vspMPfSWcwO42DgvraG6d3eRfjO7Dw=="/>
+    </item>
+    <item>
       <title>EchoVault 0.4.2</title>
       <pubDate>Sun, 04 Oct 2026 21:21:51 +0200</pubDate>
       <sparkle:version>11</sparkle:version>
