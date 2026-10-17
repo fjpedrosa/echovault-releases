@@ -6,6 +6,21 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.4.4</title>
+      <pubDate>Sat, 17 Oct 2026 23:46:51 +0200</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Menos avisos de «sincronización» en el iPhone: corregidas las confirmaciones de tus propios mensajes y de los canales de WhatsApp.</li>
+<li>EchoVault se desconecta de WhatsApp mientras el Mac duerme y reconecta al despertar.</li>
+<li>Drive: cada contacto tiene una carpeta «Media» con todos los adjuntos y los documentos diarios en su carpeta. Los ficheros existentes se reorganizan solos.</li>
+<li>Corregido un fallo que podía impedir archivar mensajes de algunos grupos, y se suben adjuntos que faltaban.</li>
+<li>Los avisos del menú muestran la hora, no se repiten y caducan.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.4.4/EchoVault.zip" type="application/octet-stream" length="98442752" sparkle:edSignature="emBPK3VoSBNxcg7u/6lo9oJ1YvXcUwekr1whU4itYU850IeMsuhBD2yTWsUQatPqgvWVcD1iM6NBRrJg3YrlDA=="/>
+    </item>
+    <item>
       <title>EchoVault 0.4.3</title>
       <pubDate>Tue, 06 Oct 2026 20:55:09 +0200</pubDate>
       <sparkle:version>12</sparkle:version>
