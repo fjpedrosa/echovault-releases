@@ -6,6 +6,21 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.4.5</title>
+      <pubDate>Sun, 08 Nov 2026 00:04:49 +0100</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Corrige la pérdida de mensajes al reconectar WhatsApp tras dormir el Mac: los mensajes se guardan antes de confirmarlos a WhatsApp.</li>
+<li>Los mensajes borrados o editados mientras el Mac estaba apagado conservan su contenido original.</li>
+<li>Se acabaron los cortes de conexión cada 50 minutos causados por los estados de WhatsApp.</li>
+<li>Nuevo en Ajustes › Avanzado: «Recuperar mensajes de las últimas 48 h desde el iPhone».</li>
+<li>Un día que falle al generarse en Drive ya no bloquea el resto.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.4.5/EchoVault.zip" type="application/octet-stream" length="98456815" sparkle:edSignature="8RnDAEeGPM7YGlOpXjJ9VX5j5Ru82R5g2CHFj0aOpob5l1/WWkXB75J7BIB5Ino3HD0kgmz3YoQd+8pQ0mFkAw=="/>
+    </item>
+    <item>
       <title>EchoVault 0.4.4</title>
       <pubDate>Sat, 17 Oct 2026 23:46:51 +0200</pubDate>
       <sparkle:version>13</sparkle:version>
