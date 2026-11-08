@@ -6,6 +6,20 @@
     <description>Actualizaciones de EchoVault.</description>
     <language>es</language>
     <item>
+      <title>EchoVault 0.4.6</title>
+      <pubDate>Sun, 08 Nov 2026 21:36:30 +0100</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Nuevo en el menú: «Reportar un problema…». Describe lo que ha pasado y, si quieres, adjunta los últimos avisos del motor; antes de enviar ves exactamente qué datos salen del Mac.</li>
+<li>EchoVault busca actualizaciones cada 6 horas en lugar de una vez al día.</li>
+<li>Cuando hay una versión nueva, la fila del menú lo dice y la instala con un clic.</li>
+<li>Nuevo en Ajustes › General: «Instalar actualizaciones automáticamente». La actualización se descarga sola y el menú te deja reiniciar para aplicarla.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/fjpedrosa/echovault-releases/releases/download/v0.4.6/EchoVault.zip" type="application/octet-stream" length="98597855" sparkle:edSignature="FnmKYugsJnDUIuaQ6IXeN7kBTCrnajR8qCU/Q5t5gcspReal8xtqNBCZEjfnMJIax/U4mG40eDq27NyjqJxhAA=="/>
+    </item>
+    <item>
       <title>EchoVault 0.4.5</title>
       <pubDate>Sun, 08 Nov 2026 00:04:49 +0100</pubDate>
       <sparkle:version>14</sparkle:version>
